@@ -1,18 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  6 17:20:56 2020
-
-@author: jaoming
-"""
-
 import pandas as pd
 import numpy as np
-import os
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-
-os.chdir('/Users/jaoming/Documents/Codes/IoT Datathon 3.0/Final Data')
+from sklearn.metrics import accuracy_score, precision_score, recall_scor
 
 # import data
 data = pd.read_csv('Singapore.csv')
@@ -58,9 +47,6 @@ y_pred_logreg = logreg_model.predict(X_test)
 accuracy_score(y_test, y_pred_logreg)
 precision_score(y_test, y_pred_logreg)
 recall_score(y_test, y_pred_logreg)
-
-## Neural Network
-
 
 ## Decision Tree
 from sklearn.tree import DecisionTreeClassifier
