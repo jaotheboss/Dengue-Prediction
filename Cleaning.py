@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 26 20:34:43 2019
-
-@author: jaoming
-"""
 # the code here is an example, and only works for a single region.
 # this is because, there'll be another function below that'll combine
 # everything
