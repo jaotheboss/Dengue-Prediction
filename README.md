@@ -1,6 +1,8 @@
 # Dengue-Prediction
 These codes are specific to Singapore. Given a dataset about dengue occurrences in Singapore, alongside data of a particular region's temperature and rainfall, we are to attempt to train a model that could predict dengue occurrences in the future, given just the rainfall and temperature as well.
 
+![Dengue](https://github.com/jaotheboss/Dengue-Prediction/blob/master/Dengue.jpg)
+
 ## Contents in this Repo:
 1. Cleaning.py
 
